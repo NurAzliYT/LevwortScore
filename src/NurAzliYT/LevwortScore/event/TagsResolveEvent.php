@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Ifera\ScoreHud\event;
+namespace NurAzliYT\LevwortScore\event;
  */
 class TagsResolveEvent extends PlayerScoreTagEvent{
 }1
