@@ -1,5 +1,16 @@
 name: LevwortScore
-main:
-version: 1.0.0
+main: NurAzliYT\ScoreHud\ScoreHud
 api: 5.0.0
-description:
+version: 1.0.0
+author: NurAzliYT
+description: Add fully customizable scoreboards to your server.
+
+virions:
+- ScoreFactory
+- UpdateNotifier
+- ConfigUpdater
+
+permissions:
+  ls.command.ls:
+    default: true
+    description: Allow players to use /levwortscorecommand.
