@@ -14,7 +14,7 @@ use pocketmine\player\Player;
 use pocketmine\plugin\PluginOwned;
 use pocketmine\plugin\PluginOwnedTrait;
 
-class LevwortScore Command extends Command implements PluginOwned{
+class LevwortScore Command extends Command implements PluginOwned
 	use PluginOwnedTrait;
 
 	/**
