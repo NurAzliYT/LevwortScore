@@ -14,7 +14,7 @@ use pocketmine\player\Player;
 use pocketmine\plugin\PluginOwned;
 use pocketmine\plugin\PluginOwnedTrait;
 
-class LevwortScore Command extends Command implements PluginOwned{
+class LevwortScore Commands extends Commands implements PluginOwned{
 	use PluginOwnedTrait;
 
 	/**
@@ -22,7 +22,7 @@ class LevwortScore Command extends Command implements PluginOwned{
 	 *
 	 * @param LevwortScore $plugin
 	 */
-	public function __construct(ScoreHud $plugin){
+	public function __construct(LevwortScore $plugin){
 		parent::__construct("levwortscore");
 		$this->setDescription("Shows LevwortScore Commands");
 		$this->setUsage("/levwortscore <on|off|about|help>");
