@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace NurAzliYT/LevwortScore\event;
+namespace NurAzliYT\LevwortScore\event;
 
 use NurAzliYT\LevwortScore\scoreboard\ScoreTag;
 use pocketmine\player\Player;
