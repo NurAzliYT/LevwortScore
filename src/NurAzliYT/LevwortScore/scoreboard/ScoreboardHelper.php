@@ -4,7 +4,7 @@ declare(strict_types = 1);
 namespace NurAzliYT\LevwortScore\scoreboard;
 
 use NurAzliYT\LevwortScore\event\TagsResolveEvent;
-use NurAzliYT\LevwortScore\ScoreSettings;
+use NurAzliYT\LevwortScore\LevwortScoreSettings;
 use NurAzliYT\LevwortScore\session\PlayerSession;
 use NurAzliYT\LevwortScore\utils\Utils;
 use function array_merge;
