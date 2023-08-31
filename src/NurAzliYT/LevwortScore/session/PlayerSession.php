@@ -8,7 +8,7 @@ use NurAzliYT\LevwortScore\scoreboard\ScoreboardHelper;
 use NurAzliYT\LevwortScore\LevwortScore;
 use NurAzliYT\LevwortScore\LevwortScoreSettings;
 use NurAzliYT\utils\HelperUtils;
-use Ifera\scorefactory\ScoreFactory;
+use jackmd\scorefactory\ScoreFactory;
 use pocketmine\player\Player;
 use function is_null;
 
