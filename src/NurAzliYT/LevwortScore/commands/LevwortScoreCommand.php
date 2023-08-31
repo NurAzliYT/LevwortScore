@@ -45,7 +45,7 @@ class LevwortScoreCommand extends Command implements PluginOwned{
 		}
 
 		if(!$sender instanceof Player){
-			$sender->sendMessage(LevwortSckreSettings::PREFIX . "§cYou can only use this command in-game.");
+			$sender->sendMessage(LevwortScoreSettings::PREFIX . "§cYou can only use this command in-game.");
 
 			return false;
 		}
