@@ -6,7 +6,7 @@ namespace NurAzliYT\LevwortScore\utils;
 use NurAzliYT\LevwortScore\LevwortScore;
 use NurAzliYT\LevwortScore\LevwortScoreSettings;
 use JackMD\ConfigUpdater\ConfigUpdater;
-use Jackmd\scorefactory\ScoreFactory;
+use jackmd\scorefactory\ScoreFactory;
 use JackMD\UpdateNotifier\UpdateNotifier;
 use function preg_match_all;
 use function preg_quote;
