@@ -12,7 +12,7 @@ use NurAzliYT\LevwortScore\utils\HelperUtils;
 use NurAzliYT\LevwortScore\utils\TitleUtils;
 use JackMD\ConfigUpdater\ConfigUpdater;
 use NurAzliYT\LevwortScore\utils\Utils;
-use NurAzliYT\scorefactory\ScoreFactory;
+use jackmd\scorefactory\ScoreFactory;
 use JackMD\UpdateNotifier\UpdateNotifier;
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
