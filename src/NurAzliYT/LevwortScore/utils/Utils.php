@@ -5,9 +5,9 @@ namespace NurAzliYT\LevwortScore\utils;
 
 use NurAzliYT\LevwortScore\LevwortScore;
 use NurAzliYT\LevwortScore\LevwortScoreSettings;
-use NurAzliYT\ConfigUpdater\ConfigUpdater;
-use NurAzliYT\scorefactory\ScoreFactory;
-use NurAzliYT\UpdateNotifier\UpdateNotifier;
+use JackMD\ConfigUpdater\ConfigUpdater;
+use JackMD\scorefactory\ScoreFactory;
+use JackMD\UpdateNotifier\UpdateNotifier;
 use function preg_match_all;
 use function preg_quote;
 
