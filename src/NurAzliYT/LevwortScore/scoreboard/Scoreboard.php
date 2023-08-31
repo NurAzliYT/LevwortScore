@@ -164,7 +164,7 @@ class Scoreboard{
 	public function display(): self{
 		$player = $this->session->getPlayer();
 
-		if(!$player->isOnline() || HelperUtils::isDisabled($player) || ScoreHudSettings::isInDisabledWorld($player->getWorld()->getFolderName())){
+		if(!$player->isOnline() || HelperUtils::isDisabled($player) || LevwortScoreSettings::isInDisabledWorld($player->getWorld()->getFolderName())){
 			return $this;
 		}
 
