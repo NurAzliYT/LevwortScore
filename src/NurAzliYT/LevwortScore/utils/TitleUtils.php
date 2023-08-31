@@ -12,7 +12,7 @@ class TitleUtils{
 	public static function getTitle(bool $calledFromTask = false): string{
 		$title = LevwortScoreSettings::getTitle();
 
-		if(ScoreHudSettings::areFlickeringTitlesEnabled()){
+		if(LevwortScoreSettings::areFlickeringTitlesEnabled()){
 			$titles = LevwortScoreSettings::getTitles();
 
 			if(!isset($titles[self::$titleIndex])){
