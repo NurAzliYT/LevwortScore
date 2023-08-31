@@ -3,11 +3,11 @@ declare(strict_types = 1);
 
 namespace NurAzliYT\LevwortScore;
 
-use Ifera\LevwortScore\event\PlayerTagsUpdateEvent;
-use Ifera\LevwortScore\event\PlayerTagUpdateEvent;
-use Ifera\LevwortScore\event\ServerTagsUpdateEvent;
-use Ifera\LevwortScore\event\ServerTagUpdateEvent;
-use Ifera\LevwortScore\scoreboard\ScoreTag;
+use NurAzliYT\LevwortScore\event\PlayerTagsUpdateEvent;
+use NurAzliYT\LevwortScore\event\PlayerTagUpdateEvent;
+use NurAzliYT\LevwortScore\event\ServerTagsUpdateEvent;
+use NurAzliYT\LevwortScore\event\ServerTagUpdateEvent;
+use NurAzliYt\LevwortScore\scoreboard\ScoreTag;
 use Ifera\LevwortScore\session\PlayerManager;
 use pocketmine\event\entity\EntityTeleportEvent;
 use pocketmine\event\Listener;
