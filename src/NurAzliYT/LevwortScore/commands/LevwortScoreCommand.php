@@ -7,7 +7,7 @@ use NurAzliYT\LevwortScore\LevwortScore;
 use NurAzliYT\LevwortScore\LevwortScoreSettings;
 use NurAzliYT\LevwortScore\session\PlayerManager;
 use NurAzliYT\LevwortScore\utils\HelperUtils;
-use JackMD\scorefactory\ScoreFactory;
+use jackmd\scorefactory\ScoreFactory;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
