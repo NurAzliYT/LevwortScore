@@ -19,7 +19,7 @@ class LevwortScoreSettings{
 	public static function init(LevwortScore $plugin): void{
 		self::$plugin = $plugin;
 		self::$config = $plugin->getConfig();
-		self::$LevwordScore = $plugin->getScoreConfig();
+		self::$LevwortScore = $plugin->getScoreConfig();
 	}
 
 	public static function destroy(): void{
