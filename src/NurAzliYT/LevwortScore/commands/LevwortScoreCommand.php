@@ -58,7 +58,7 @@ class LevwortScoreCommand extends Command implements PluginOwned{
 
 		switch($args[0]){
 			case "about":
-				$sender->sendMessage(LevwortScoreSettings::PREFIX . "§6Score§eHud §av" . $this->owningPlugin->getDescription()->getVersion() . "§a. Plugin by §dIfera§a. Contact on §bTwitter: @ifera_tr §aor §bDiscord: Ifera#3717§a.");
+				$sender->sendMessage(LevwortScoreSettings::PREFIX . "§6Levwort§eScore §av" . $this->owningPlugin->getDescription()->getVersion() . "§a. Plugin by §dIfera§a. Contact on §bTwitter: @ifera_tr §aor §bDiscord: Ifera#3717§a.");
 			break;
 
 			case "on":
