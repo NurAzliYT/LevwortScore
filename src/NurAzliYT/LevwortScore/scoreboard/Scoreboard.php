@@ -6,7 +6,7 @@ namespace NurAzliYT\LevwortScore\scoreboard;
 use NurAzliYT\LevwortScore\LevwortScoreSettings;
 use NurAzliYT\LevwortScore\session\PlayerSession;
 use NurAzliYT\LevrortScore\utils\HelperUtils;
-use NurAzliYT\scorefactory\ScoreFactory;
+use \scorefactory\ScoreFactory;
 use function array_count_values;
 use function array_keys;
 use function array_map;
