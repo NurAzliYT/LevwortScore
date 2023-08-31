@@ -5,8 +5,8 @@ namespace NurAzliYT\LevwortScore\scoreboard;
 
 use NurAzliYT\LevwortScore\LevwortScoreSettings;
 use NurAzliYT\LevwortScore\session\PlayerSession;
-use NurAzliYT\LevrortScore\utils\HelperUtils;
-use \scorefactory\ScoreFactory;
+use NurAzliYT\LevwortScore\utils\HelperUtils;
+use jackmd\scorefactory\ScoreFactory;
 use function array_count_values;
 use function array_keys;
 use function array_map;
@@ -100,7 +100,7 @@ class Scoreboard{
 	public function handleSingleTagUpdate(ScoreTag $tag): self{
 		$player = $this->session->getPlayer();
 
-		if(!$player->isOnline() || HelperUtils::isDisabled($player) || ScoreHudSettings::isInDisabledWorld($player->getWorld()->getFolderName())){
+		if(!$player->isOnline() || HelperUtils::isDisabled($player) || LevwortScoreSettings::isInDisabledWorld($player->getWorld()->getFolderName())){
 			return $this;
 		}
 
