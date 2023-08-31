@@ -8,8 +8,8 @@ use NurAzliYT\LevwortScore\event\ServerTagsUpdateEvent;
 use NurAzliYT\LevwortScore\factory\listener\FactoryListener;
 use NurAzliYT\LevwortScore\factory\listener\TagResolveListener;
 use NurAzliYT\LevwortScore\scoreboard\ScoreTag;
-use NurAzliYT\LevwortScore\Score;
-use NurAzliYT\Score\ScoreSettings;
+use NurAzliYT\LevwortScore\LevwortScore;
+use NurAzliYT\LevwortScore\LevwortScoreSettings;
 use pocketmine\scheduler\ClosureTask;
 use pocketmine\utils\Process;
 
