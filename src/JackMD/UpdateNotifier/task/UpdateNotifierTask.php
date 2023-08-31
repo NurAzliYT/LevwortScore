@@ -10,7 +10,7 @@ use function json_decode;
 use function version_compare;
 use function vsprintf;
 
-class UpdateNotifyTask extends AsyncTask {
+class UpdateNotifyTask extends AsyncTask 
 
 	/** @var string */
 	private const POGGIT_RELEASES_URL = "https://poggit.pmmp.io/releases.min.json?name=";
@@ -57,4 +57,3 @@ class UpdateNotifyTask extends AsyncTask {
 			$plugin->getLogger()->notice(vsprintf("Version %s has been released for API %s. Download the new release at %s", [$highestVersion, $api, $artifactUrl]));
 		}
 	}
-}
