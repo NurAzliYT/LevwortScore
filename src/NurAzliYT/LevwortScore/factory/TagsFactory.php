@@ -54,6 +54,6 @@ class TagsFactory {
 			}
 		});
 
-		$plugin->getScheduler()->scheduleRepeatingTask($task, ScoreHudSettings::getTagFactoryUpdatePeriod() * 20);
+		$plugin->getScheduler()->scheduleRepeatingTask($task, LevwortScoreSettings::getTagFactoryUpdatePeriod() * 20);
 	}
 }
