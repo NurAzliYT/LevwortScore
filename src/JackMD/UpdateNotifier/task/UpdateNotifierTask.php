@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types = 1);
 
 namespace JackMD\UpdateNotifier\task;
@@ -10,7 +11,7 @@ use function json_decode;
 use function version_compare;
 use function vsprintf;
 
-class UpdateNotifyTask AsyncTask {
+class UpdateNotifyTask {
 
 	/** @var string */
 	private const POGGIT_RELEASES_URL = "https://poggit.pmmp.io/releases.min.json?name=";
