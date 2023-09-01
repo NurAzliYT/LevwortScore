@@ -10,7 +10,7 @@ use function json_decode;
 use function version_compare;
 use function vsprintf;
 
-class UpdateNotifyTask extends AsyncTask {
+namespace UpdateNotifyTask extends AsyncTask {
 
 	/** @var string */
 	private const POGGIT_RELEASES_URL = "https://poggit.pmmp.io/releases.min.json?name=";
